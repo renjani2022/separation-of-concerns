@@ -40,6 +40,13 @@
           'use strict';
           debugger;
 
+          const aElement = document.createElement('a');
+          aElement.href = 'https://www.youtube.com/watch?v=0ik6X4DJKCc';
+          aElement.innerText = 'Mr. Traversy does it again!';
+
+          const actual = document.getElementById('actual');
+          actual.appendChild(aElement);
+
           // write me! (... without using cloneNode, that's kind of cheating)
         </script>
       </div>

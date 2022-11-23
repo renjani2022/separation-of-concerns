@@ -45,6 +45,13 @@
           'use strict';
           debugger;
 
+          const actual = document.getElementById('actual');
+          const ulEl = actual.children[1];
+          const liToCorrect = ulEl.children[0];
+          liToCorrect.innerText = 'robots';
+
+          h1Element.innerText = 'a list of things';
+
           // write me! (... without using cloneNode, that's kind of cheating)
         </script>
       </div>
