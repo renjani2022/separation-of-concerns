@@ -44,13 +44,14 @@
           'use strict';
           debugger;
 
+          //create h1
           const actual = document.getElementById('actual');
           const UlElement = document.createElement('h1');
           UlElement.innerText = 'a list of things';
 
-          actual.insertBefore(UlElement, actual.children[0]);
-          const liElement = actual.children[1].children[1];
-          liElement.innerText = 'solar systems';
+          actual.prepend(UlElement, actual.children[0]);
+          const listElement = actual.children[1].children[1];
+          listElement.innerText = 'solar systems';
 
           // write me! (... without using cloneNode, that's kind of cheating)
         </script>

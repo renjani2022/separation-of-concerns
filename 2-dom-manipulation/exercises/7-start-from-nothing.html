@@ -43,6 +43,33 @@
           'use strict';
           debugger;
 
+          //create h2
+          const h2El = document.createElement('h2');
+          h2El.innerText = 'a list of things';
+          document.getElementById('actual').appendChild(h2El);
+
+          //create ul, li
+
+          const things = ['robots', 'solar systems', '', 'oil'];
+          const unorderedList = document.createElement('ul');
+          for (let thing of things) {
+            const newList = document.createElement('li');
+            newList.innerText = thing;
+            unorderedList.appendChild(newList);
+          }
+          document.getElementById('actual').appendChild(h2El);
+          actual.appendChild(unorderedList);
+
+          //add link
+          const aElement = document.createElement('a');
+          aElement.href = 'https://www.badgerbadgerbadger.com';
+          aElement.innerText = 'learn about badgers';
+
+          const actualDiv = document.getElementById('actual');
+          const ulElement = actualDiv.children[1];
+          const liElement = ulElement.children[2];
+          liElement.appendChild(aElement);
+
           // write me! (... without using cloneNode, that's kind of cheating)
         </script>
       </div>
