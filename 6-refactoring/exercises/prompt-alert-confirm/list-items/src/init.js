@@ -1,4 +1,9 @@
-document.getElementById('list-things').addEventListener('click', () => {
+import listeners from './listener.js';
+
+listeners();
+
+/**
+ * document.getElementById('list-things').addEventListener('click', () => {
   // read & process user input
   const allInputs = [];
   let acceptingInput = true;
@@ -21,3 +26,4 @@ document.getElementById('list-things').addEventListener('click', () => {
   const message = `all items:${stringList}`;
   alert(message);
 });
+*/

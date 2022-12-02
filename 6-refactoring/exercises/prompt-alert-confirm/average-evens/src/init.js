@@ -1,12 +1,18 @@
-document.getElementById('average-evens').addEventListener('click', () => {
-  // read & process user input
+import listeners from './listener';
+
+listeners();
+
+/**
+ * document.getElementById('average-evens').addEventListener('click', () => {
+  
+// read & process user input
   const allNumbers = [];
   let acceptingInput = true;
   while (acceptingInput) {
     const nextInput = prompt('enter a number');
     if (nextInput === null || nextInput === '') {
       acceptingInput = false;
-      continue;
+      continue; 
     }
 
     const nextNumber = Number(nextInput);
@@ -32,3 +38,4 @@ document.getElementById('average-evens').addEventListener('click', () => {
   const message = `average of all evens: ${average}`;
   alert(message);
 });
+*/

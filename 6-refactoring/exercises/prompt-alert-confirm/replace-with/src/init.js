@@ -1,4 +1,9 @@
-document.getElementById('replacing').addEventListener('click', () => {
+import listeners from './listener.js';
+
+listeners();
+
+/**
+ * document.getElementById('replacing').addEventListener('click', () => {
   debugger;
   // read & process user input
   const stringToReplacify = prompt('enter a string to replaceify');
@@ -40,3 +45,4 @@ document.getElementById('replacing').addEventListener('click', () => {
   // communicate result to user
   alert(`${stringToReplacify}\n${newString}`);
 });
+*/

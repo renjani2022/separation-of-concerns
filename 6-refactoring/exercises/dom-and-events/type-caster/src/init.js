@@ -1,9 +1,14 @@
-document.getElementById('user-action').addEventListener('click', (event) => {
+import listeners from './listener';
+
+listeners();
+
+/** 
+ document.getElementById('user-action').addEventListener('click', (event) => {
   debugger;
   // read & process user input
   const form = event.target.form;
   const intendedType = form.type.value;
-  const stringToCast = form.value.value;
+  const stringToCast = form.value.value; 
 
   // execute core logic
   let newValue;
@@ -27,3 +32,4 @@ document.getElementById('user-action').addEventListener('click', (event) => {
   console.log('intendedType:', intendedType);
   console.log('newValue:', newValue);
 });
+*/
