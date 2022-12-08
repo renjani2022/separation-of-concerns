@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { search } from './util.js';
 import { state } from '../data/state.js';
 
@@ -21,3 +22,9 @@ export const searchFoodsHandler = () => {
   // log the interaction
   console.log(query);
 };
+=======
+import { search } from './utils.js';
+import { state } from '../data/state.js';
+
+export const searchFoodsHandler = () => {};
+>>>>>>> ade7b95316aed00b00fa2af13fab08aaba852ff8

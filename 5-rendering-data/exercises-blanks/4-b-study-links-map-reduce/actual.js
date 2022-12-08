@@ -1,15 +1,15 @@
 'use strict';
 
 const actual = (linksData) => {
-  const divEl = document.createElement('_');
+  const divEl = document.createElement('div');
 
-  const h3El = document.createElement('_');
+  const h3El = document.createElement('h3');
   h3El.textContent = linksData.topic;
   divEl.appendChild(h3El);
 
   const entryToLi = (entry) => {
-    const liEl = document.createElement('_');
-    const aEl = document.createElement('_');
+    const liEl = document.createElement('li');
+    const aEl = document.createElement('a');
     aEl.innerHTML = entry[_];
     aEl.href = entry[_];
     aEl.target = '_';
