@@ -1,4 +1,11 @@
-// data to refactor out of this file
+import listeners from './listener.js';
+
+listeners();
+
+/**
+ * 
+ * 
+ * data to refactor out of this file
 const data = {
   noCopies: [],
 };
@@ -23,3 +30,4 @@ document.getElementById('no-copies-button').addEventListener('click', () => {
   // log interaction
   console.log(data);
 });
+*/

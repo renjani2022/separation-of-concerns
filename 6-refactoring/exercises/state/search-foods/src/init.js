@@ -1,3 +1,8 @@
+import listeners from './listener';
+
+listeners();
+
+/**
 // data to refactor out of this file
 const data = {
   foods: [
@@ -35,3 +40,4 @@ document.getElementById('begin-search').addEventListener('click', () => {
   // log the interaction
   console.log(query);
 });
+ */

@@ -1,5 +1,10 @@
-const bulletPoint = '*'; // data to refactor out of this file
+import listeners from './listener.js';
 
+listeners();
+
+//const bulletPoint = '*'; // data to refactor out of this file
+
+/** 
 document.getElementById('list-them').addEventListener('click', () => {
   // read & process user input
   const allInputs = [];
@@ -23,3 +28,4 @@ document.getElementById('list-them').addEventListener('click', () => {
   const message = `all items:${stringList}`;
   alert(message);
 });
+*/
